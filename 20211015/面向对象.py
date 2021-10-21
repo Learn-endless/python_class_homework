@@ -25,4 +25,5 @@ dog_1.notes()
 print(dog_1.leg)
 print(dog_1.nose)
 print(dog_1.tail)
+print(Dog.nose)
 

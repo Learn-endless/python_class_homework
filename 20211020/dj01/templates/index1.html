@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>index...</h1>>
+{{ name }}
+{{ age }}<br/>
+{{ game_lst.0 }}{{ game_lst.1 }}{{ game_lst.2 }}<br/>
+{% for game in game_lst %}
+    <h3>{{ game }}<br/></h3>
+{% endfor %}
+
+<hr>
+<ul>
+    {% for game in  game_lst %}
+        <li>{{ game }}</li>
+    {% endfor %}
+</ul>
+
+<hr>
+{% for game in game_lst %}
+    <ul>
+    <li>{{ game }}</li>
+    </ul>
+{% endfor %}
+
+<hr>
+<table border="'1px">
+    <tr>
+        <td>序号</td>
+        <td>游戏名称</td>
+        <td>操作</td>
+    </tr>
+
+    {% for game in game_lst %}
+        <tr>
+            <td>{{ forloop.counter }}</td>
+            <td>{{ game }}</td>
+            <td>
+                <a href="#">删除</a>
+                <a href="#">修改</a>
+            </td>
+        </tr>
+
+    {% endfor %}
+
+</table>
+
+</body>
+</html>
