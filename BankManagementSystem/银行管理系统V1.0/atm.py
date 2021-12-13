@@ -6,17 +6,18 @@ class Atm:
     def __init__(self, alluser):  # 给Atm类一个属性，存放所有用户
         self.alluser = alluser
 
-    def randomiCardId(self):  # 随机生成卡号
+    # 随机生成卡号
+    def randomiCardId(self):
         str_data = str(random.randint(100000,999999))
         if not self.alluser.get(str):  # 判断卡号是否重复
             return str_data
 
-    def creatUser(self):      # 开户
+    # 开户
+    def creatUser(self):
         name = input("请输入姓名：")
         Uid = input("请输入身份证号：")
         phone = input("请输入手机号：")
         prestMoney = float(input("请输入预存金额："))
-
         if prestMoney <= 0:
             print("预存金额有误，开户失败！")
             return -1
@@ -32,7 +33,8 @@ class Atm:
         self.alluser[cardId] = user
         print("您的账户已开通完成，请牢记账户ID: %s" % cardId)
 
-    def checkPwd(self, realPwd): # 检查密码的正确性
+    # 检查密码的正确性
+    def checkPwd(self, realPwd):
         for i in range(3):
             psd2 = input("请输入密码：")
             if realPwd == psd2:
@@ -40,7 +42,8 @@ class Atm:
         print("密码输错三次，系统自动退出......")
         return False
 
-    def lockCard(self): # 给账户上锁
+    # 给账户上锁
+    def lockCard(self):
         inptcardId = input("请输入您的卡号：")
         user = self.alluser.get(inptcardId)
         if not user:
@@ -55,7 +58,8 @@ class Atm:
         user.card.cardLock = True
         print("该卡被锁定成功！")
 
-    def searchUser(self):  # 查询操作
+    # 查询操作
+    def searchUser(self):
         inptcardId = input("请输入您的卡号：")
         user = self.alluser.get(inptcardId)
         if not user:
@@ -71,7 +75,8 @@ class Atm:
         print("账户：%s 余额：%.2f" % (user.card.cardId, user.card.money))
         return user
 
-    def getMoney(self): # 取钱
+    # 取钱
+    def getMoney(self):
         userTF = self.searchUser()
         if userTF != -1: # 判断卡是否存在，卡的状态，输入密码的正确性
             inptMoney = float(input("请输入取款金额："))
@@ -81,7 +86,8 @@ class Atm:
             userTF.card.money = float(userTF.card.money) - inptMoney
             print("取款成功！ 账户：%s 余额：%.2f " % (userTF.card.cardId, userTF.card.money))
 
-    def saveMoney(self): # 存钱
+    # 存钱
+    def saveMoney(self):
         userTF = self.searchUser()
         if userTF != -1: # 判断卡是否存在，卡的状态，输入密码的正确性
             if userTF.card.cardLock == False: # 确保卡的状态是解锁状态
@@ -92,7 +98,8 @@ class Atm:
                     userTF.card.money += inptMoney
                     print("存款成功！ 账户：%s  余额：%.2f" % (userTF.card.cardId, userTF.card.money))
 
-    def unlockCard(self): # 账号解锁
+    # 账号解锁
+    def unlockCard(self):
         inptcardId = input("请输入您得卡号：")
         user = self.alluser.get(inptcardId)
         if not self.alluser.get(inptcardId):

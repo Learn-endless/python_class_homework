@@ -12,13 +12,14 @@ class Admin:
         self.adPwd = input("请输入密码:")
         return self.adminOption()  # 判断管理员账户密码的正确性
 
+    # 判断管理员账户密码的正确性
     def adminOption(self):
         if self.adminU == "admin" and self.adPwd == "123":
             return self.printSysFunctionView()  # 正确调用操作菜单
         else:
             print("管理员账号或密码错误！")
             return False
-
+    # 操作菜单
     def printSysFunctionView(self):
         print("操作成功,请稍后......")
         print("************************************")
