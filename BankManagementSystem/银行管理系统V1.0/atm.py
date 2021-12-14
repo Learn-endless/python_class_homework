@@ -3,7 +3,7 @@ from user import User
 from card import Card
 # 操作类
 class Atm:
-    def __init__(self, alluser):  # 给Atm类一个属性，存放所有用户
+    def __init__(self, alluser):  # 给Atm类一个属性，存放用户
         self.alluser = alluser
 
     # 随机生成卡号

@@ -19,6 +19,7 @@ class Admin:
         else:
             print("管理员账号或密码错误！")
             return False
+
     # 操作菜单
     def printSysFunctionView(self):
         print("操作成功,请稍后......")

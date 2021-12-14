@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6585767a-1072-4ef1-b955-a295bed1c593" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../20211213/for循环.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20211213/while循环.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20211213/字符串操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20211213/猜拳游戏.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/银行管理系统V1.0/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/银行管理系统V1.0/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/银行管理系统V1.0/atm.py" beforeDir="false" afterPath="$PROJECT_DIR$/银行管理系统V1.0/atm.py" afterDir="false" />
@@ -32,7 +36,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20211213" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -188,6 +192,8 @@
       <workItem from="1639199862694" duration="12277000" />
       <workItem from="1639296781599" duration="4687000" />
       <workItem from="1639319373615" duration="1600000" />
+      <workItem from="1639403394500" duration="40000" />
+      <workItem from="1639448576409" duration="2500000" />
     </task>
     <servers />
   </component>
@@ -211,7 +217,7 @@
     <SUITE FILE_PATH="coverage/BankManagementSystem$atm.coverage" NAME="atm Coverage Results" MODIFIED="1639202386267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/银行管理系统V1.0" />
     <SUITE FILE_PATH="coverage/BankManagementSystem$atm__1_.coverage" NAME="atm (1) Coverage Results" MODIFIED="1639204612497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BankManagementSystem$__1_.coverage" NAME="银行系统 (1) Coverage Results" MODIFIED="1639202756585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/银行管理系统V1.0" />
-    <SUITE FILE_PATH="coverage/BankManagementSystem$__3_.coverage" NAME="银行系统 (3) Coverage Results" MODIFIED="1639319714851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/银行管理系统V1.0" />
+    <SUITE FILE_PATH="coverage/BankManagementSystem$__3_.coverage" NAME="银行系统 (3) Coverage Results" MODIFIED="1639450012342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/银行管理系统V1.0" />
     <SUITE FILE_PATH="coverage/BankManagementSystem$.coverage" NAME="银行系统 Coverage Results" MODIFIED="1639201230330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BankManagementSystem$__2_.coverage" NAME="银行系统 (2) Coverage Results" MODIFIED="1639208470804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BankManagementSystem$admin.coverage" NAME="admin Coverage Results" MODIFIED="1639209370788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/银行管理系统V1.0" />
